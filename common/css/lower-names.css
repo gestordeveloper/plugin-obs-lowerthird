@@ -1,0 +1,54 @@
+@import "_variables.css";
+
+body{
+    margin:0 3em;
+    overflow:hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#lower-third{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#lower-third .text-01{
+    background: linear-gradient(0deg, rgba(57,51,2,1) 0%, rgba(245,225,0,1) 100%);
+    color: var(--white);
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 5px 0;
+    padding-left: 25px;
+    padding-right: 35px;
+    border-radius: 0 20px 0 0;
+    border: 2px solid #cba00f;
+    border-bottom: 0;
+
+    position: fixed;
+    left: -1920px;
+    transition: left .8s ease;
+}
+
+#lower-third .text-02{
+    background: RGBA(134,119,34,0.5);
+    color: var(--white);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 35px; 
+    border-radius: 0 30px 0 30px;
+    border: 2px solid #cba00f;
+
+    position: fixed;
+    left: -1920px;
+    top: 40px;
+    transition: left 1.2s ease;
+}
+
+#function.show, #name.show{
+    left: 65px;
+}
+
+

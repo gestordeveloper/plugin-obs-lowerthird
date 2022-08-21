@@ -1,0 +1,18 @@
+:root {
+	/*Colors*/
+	--white: #fff;
+
+	/*Painel de Controle*/
+	--element-radius: .5rem;
+	--main-color: #e1e0e1;
+	--obs-background: #3a393a;
+	--obs-input-background: #1f1e1f;
+	--obs-button-background: #4c4c4c;
+	--obs-button-border: #233166;
+	--obs-button-hover-background: #7a797a;
+	--obs-button-hover-border: #84162d;
+
+	/*Lower Third*/
+	--animation-background: #b9ac00;
+	--animation-color-name: #48452e;
+}
